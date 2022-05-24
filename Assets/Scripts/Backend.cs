@@ -9,10 +9,10 @@ using TMPro;
 
 public class Backend : MonoBehaviour
 {
-    public string userId = "417caa21-31ab-4883-aa37-ce366fefa51a";
+    public string userId;
     public string baseUrl = "192.168.0.102:8081";
-    public string api_key = "5096A0DD7A77053AE06EED605174D831F53F8C30B91CBFA963C3939BE8DAF0D7DD2609A36426562D";
-    public string token_id = "51015339275010B8";
+    public string api_key;
+    public string token_id;
     public int tokenAmount = 0;
     public float originalFontSize = 0;
     public TMP_Text tokentext;
@@ -20,10 +20,11 @@ public class Backend : MonoBehaviour
 
     public void Start()
     {
+        DontDestroyOnLoad(this.gameObject);
         client = new HttpClient();
         originalFontSize = tokentext.fontSize;
-        InvokeRepeating("GetTokens", 0.0f, 5.0f);
-        AirdropTokens(1);
+        // InvokeRepeating("GetTokens", 0.0f, 5.0f);
+        // AirdropTokens(1);
     }   
 
     private async Task<string> GetTokens()
