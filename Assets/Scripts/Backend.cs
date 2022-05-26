@@ -23,6 +23,9 @@ public class Backend : MonoBehaviour
         DontDestroyOnLoad(this.gameObject);
         client = new HttpClient();
         originalFontSize = tokentext.fontSize;
+        Debug.Log("baseurl: " + baseUrl);
+        Debug.Log("api_key: " + api_key);
+        Debug.Log("user: " + userId);
         // InvokeRepeating("GetTokens", 0.0f, 5.0f);
         // AirdropTokens(1);
     }   
@@ -85,7 +88,7 @@ public class Backend : MonoBehaviour
 
             var message = jsonData["viewModel"].Value;
 
-            Debug.Log(message);
+            Debug.Log("Airdrop end");
         }
         catch(HttpRequestException e)
         {

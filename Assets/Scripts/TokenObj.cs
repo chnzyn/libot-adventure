@@ -5,6 +5,7 @@ using UnityEngine;
 public class TokenObj : MonoBehaviour
 {
     public Backend backend;
+    public int value;
 
     public void Start() 
     {
@@ -15,9 +16,15 @@ public class TokenObj : MonoBehaviour
     {
         if(other.gameObject.CompareTag("Player")) 
         {
-            backend.AirdropTokens(1);
-            Destroy(this.gameObject);
+            StartCoroutine(airdrop(value));
         }
         
+    }
+
+    public IEnumerator airdrop(int value)
+    {
+        yield return backend.AirdropTokens(value);
+        Debug.Log("Airdrop finished!");
+        Destroy(this.gameObject);
     }
 }

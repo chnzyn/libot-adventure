@@ -29,7 +29,7 @@ public class Treasure : MonoBehaviour {
 			}
 			
 			// destroy after collection
-			Destroy (gameObject);
+			// Destroy (gameObject);
 		}
 	}
 }
