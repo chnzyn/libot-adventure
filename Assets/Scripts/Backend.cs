@@ -29,6 +29,14 @@ public class Backend : MonoBehaviour
         Debug.Log("baseurl: " + baseUrl);
         Debug.Log("api_key: " + api_key);
         Debug.Log("user: " + userId);
+
+        int pm = Application.absoluteURL.IndexOf("?");
+        if (pm != -1)
+        {
+            userId = Application.absoluteURL.Split("?"[0])[1].Split("=")[1];
+            Debug.Log("new user: " + userId);
+        }
+
         // InvokeRepeating("GetTokens", 0.0f, 5.0f);
         // AirdropTokens(1);
     }   
@@ -76,7 +84,7 @@ public class Backend : MonoBehaviour
     {
         UnityWebRequest request = new UnityWebRequest(baseUrl + "/v1/transactions/airdrop?DeveloperToken=" + token_id + "&DeveloperTokenAmount=" + amount + "&GamerId=" + userId, "POST");
         // request.uploadHandler = (UploadHandler)new UploadHandlerRaw(jsonToSend);
-        request.SetRequestHeader("X-API-KEY", api_key);
+        request.SetRequestHeader("Authorization", "Bearer " + api_key);
         request.downloadHandler = (DownloadHandler)new DownloadHandlerBuffer();
 
         yield return request.SendWebRequest();
