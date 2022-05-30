@@ -1,0 +1,2064 @@
+{
+	"info": {
+		"_postman_id": "6cbc4ffc-86d7-4965-a872-0e9d2fbc586a",
+		"name": "Xarcade",
+		"description": "# Xarcade API\n\nXaracade API is a REST API that allows game developers to integrate their game projects seamlessly with the ProximaX Sirius platform.\n\n## Getting Started\n\n### Prerequisites\n\n.NetStandard 2.0\n\n### Installing & Running Locally\n\nStep 1. Clone the xarcade main repository\n\n```\ngit clone https://gitlab.com/Xarcade/csharp-xrcd-rest-proto\n```\n\nStep 2. Open the Project Folder with your IDE (Visual Studio / VS Code)\n\n```\nD:\\Xarcade\\csharp-xrcd-rest-proto\\bsg\\Xarcade.WebApi>\n```\n\nStep 3. Right-click the Xarcade.WebApi Folder and restore project files\n\n```\ndotnet restore\n```\n\nYou will see something like this.\n\n```\n  Determining projects to restore...  All projects are up-to-date for restore.\n```\n\nStep 4. Run the web api\n\n```\ndotnet run \n```\n\nIf all goes well, you will see this\n\n```\nwarn: Microsoft.AspNetCore.Server.Kestrel[0]      Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined in UseKestrel() instead.info: Microsoft.Hosting.Lifetime[0]      Now listening on: http://0.0.0.0:8080info: Microsoft.Hosting.Lifetime[0]      Application started. Press Ctrl+C to shut down.info: Microsoft.Hosting.Lifetime[0]      Hosting environment: Developmentinfo: Microsoft.Hosting.Lifetime[0]      Content root path: D:\\Xarcade\\gitt\\csharp-xrcd-rest-proto\\bsg\\Xarcade.WebApi\n```\n\n### Using the Xarcade API Dashboard\n\nStep 1. Navigate to the Dashboard Folder in the File Explorer\n\n```\nD:\\Xarcade\\csharp-xrcd-rest-proto\\Xarcade.Dashboard\n```\n\nStep 2. Open the register.html file in any web browser to register an account.\n\n```\nD:\\Xarcade\\csharp-xrcd-rest-proto\\Xarcade.Dashboard\\api-dashboard\\register.html\n```\n\nStep 3. Check your Email for the verification token. (Has an ongoing issue/bug, please proceed with manual verification: Copy + Paste Token in email to the verify field)\n\nStep 4. Login to the dashboard to proceed with use. (Create Tokens and Connect Games)\n\n## Testing Tools/Programs\n\n*   [Swagger](https://editor.swagger.io/) - API Routes & Documentation (check .yaml file in root folder)\n*   [Postman](https://www.postman.com/downloads/) - API Testing (check .json file in root folder)\n*   [Studio3T](https://studio3t.com/download/) / [MongoDB Compass](https://www.mongodb.com/try/download/compass) - Database GUI & IDE (MongoDB Url: mongodb://user123:password123@65.0.118.121:27017/Xarcade_Alpha)\n    \n\n## Integration Test\n\nThe Integration Tests cover the following features:\n\n*   Accounts\n*   Tokens\n*   Games\n*   Authentication\n*   Email Service\n    \n\n[Overall Integration Test Template](https://docs.google.com/spreadsheets/d/1Pw6MeNgmp2r_9KZP1N3oME9pYc11tOWQw4_rk9EDkKU/edit?usp=sharing) - Google Sheet Template for Testing\n\n## Deployment (Server Testing)\n\nStep 1. Ask Infrastructure team to add your SSH Keys.\n\nStep 2. ssh ubuntu@65.0.118.121 & enter your passphrase\n\nStep 3. cd \\~/deployment\n\nStep 4. docker-compose up\n\n## Framework\n\n*   netcoreapp3.1\n    \n\n## Important Links/Repositories:\n\n*   [Xarcade API Repository](https://gitlab.com/Xarcade/csharp-xrcd-rest-proto)\n*   [Game Example Repository (Unity Game Engine)](https://gitlab.com/Xarcade/game_example)\n*   [Dashboard Repository](https://gitlab.com/Xarcade/dashboard)\n    \n\n## License\n\nThis project is under a closed license by ProximaX & Xarcade.\n\n## Current Issues/ Ongoing Bug Fixes:\n\n*   Verification Link Bug (For now do manual verification: Copy + Paste Token from email to token field of the verify page.)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "11580993"
+	},
+	"item": [
+		{
+			"name": "game",
+			"item": [
+				{
+					"name": "Get Game",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Existing Game\",()=>\r",
+									"{\r",
+									"    pm.response.to.have.status(200);\r",
+									"})\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": [
+								{
+									"key": "value",
+									"value": "FBD27D4D2768ECF0B3B616E8A883AE84BECD0FA3C38A1AE21EE66531FC043A2E15CAC23FECE6ED9D",
+									"type": "string"
+								},
+								{
+									"key": "key",
+									"value": "api_key",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "{{base_url}}/games/FD2536B2B360E54F",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"games",
+								"FD2536B2B360E54F"
+							]
+						},
+						"description": "Retrieves the latest information about a game from the blockchain and the database.\n\nYou can use either namespace name or gameId to search"
+					},
+					"response": []
+				},
+				{
+					"name": "Get Tokens Attached To Game with GameId",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Existing Tokens\",()=>",
+									"{",
+									"    pm.response.to.have.status(200);",
+									"})",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/games/8768732F0416F0D3/attach",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"games",
+								"8768732F0416F0D3",
+								"attach"
+							]
+						},
+						"description": "Retrieves a list of tokens attached to a game"
+					},
+					"response": []
+				},
+				{
+					"name": "Get All Games",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "{{base_url}}/games?skip=0&limit=0",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"games"
+							],
+							"query": [
+								{
+									"key": "skip",
+									"value": "0",
+									"description": "optional paginator"
+								},
+								{
+									"key": "limit",
+									"value": "0",
+									"description": "optional paginator"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Game Details",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Update Game Details\",()=>",
+									"{",
+									"    pm.response.to.have.status(200);",
+									"})",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "Title",
+									"value": "Coin Adventure!",
+									"type": "text"
+								},
+								{
+									"key": "Category",
+									"value": "Productivity",
+									"type": "text"
+								},
+								{
+									"key": "ContentRating",
+									"value": "G",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "Tags",
+									"value": "[\"play-to-earn\", \"factions\", \"pets\"]",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "LogoStream",
+									"type": "file",
+									"src": "/Users/dnaniel213/Downloads/adobe/untitled folder/Dandan-Games-Logo-269x269.png"
+								},
+								{
+									"key": "CoverStream",
+									"type": "file",
+									"src": []
+								},
+								{
+									"key": "Languages",
+									"value": "[{ \"Name\" : \"English\", \"Audio\" : true, \"Interface\" : true, \"Subtitles\" : true}, { \"Name\" : \"Russian\", \"Audio\" : true, \"Interface\" : true, \"Subtitles\" : true}]",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "About",
+									"value": "Roll the ball, and get tokens!",
+									"type": "text"
+								},
+								{
+									"key": "HeaderImageStream",
+									"description": "/blob/games/{gameId}/gallery/{name}",
+									"type": "file",
+									"src": [],
+									"disabled": true
+								},
+								{
+									"key": "GalleryImagesStream",
+									"description": "/blob/games/{gameId}/gallery/{name}",
+									"type": "file",
+									"src": [],
+									"disabled": true
+								},
+								{
+									"key": "SEOTitle",
+									"value": "What Let's go?",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "SEODescription",
+									"value": "What Let's go?",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "SEOThumbnailStream",
+									"type": "file",
+									"src": [],
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_url}}/games/FD2536B2B360E54F?userId={{user_id}}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"games",
+								"FD2536B2B360E54F"
+							],
+							"query": [
+								{
+									"key": "userId",
+									"value": "{{user_id}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Game Details HTML",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "GameDetailsHTMLStream",
+									"type": "file",
+									"src": "/C:/Users/dnani/Downloads/MinionsJump-master/index.html"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_url}}/games/watertoken/details?userId={{user_id}}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"games",
+								"watertoken",
+								"details"
+							],
+							"query": [
+								{
+									"key": "userId",
+									"value": "{{user_id}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Game",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "{{base_url}}/games?user={{user_id}}&namespaceName=xartest.xartestgame",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"games"
+							],
+							"query": [
+								{
+									"key": "user",
+									"value": "{{user_id}}"
+								},
+								{
+									"key": "namespaceName",
+									"value": "xartest.xartestgame"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"description": "**Requests about games**"
+		},
+		{
+			"name": "wallet",
+			"item": [
+				{
+					"name": "Get Game List by wallet",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "{{base_url}}/wallets/{{wallet_address}}/games?skip=0&limit=0",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"wallets",
+								"{{wallet_address}}",
+								"games"
+							],
+							"query": [
+								{
+									"key": "skip",
+									"value": "0",
+									"description": "optional paginator"
+								},
+								{
+									"key": "limit",
+									"value": "0",
+									"description": "optional paginator"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Token List by wallet",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/wallets/{{wallet_address}}/tokens?ignoreExternal=false",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"wallets",
+								"{{wallet_address}}",
+								"tokens"
+							],
+							"query": [
+								{
+									"key": "ignoreExternal",
+									"value": "false"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Asset List",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/wallets/{{wallet_address}}/assets?ignoreLinked=false",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"wallets",
+								"{{wallet_address}}",
+								"assets"
+							],
+							"query": [
+								{
+									"key": "ignoreLinked",
+									"value": "false"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Namespace List",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_url}}/wallets/{{wallet_address}}/namespaces?ignoreLinked=true",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"wallets",
+								"{{wallet_address}}",
+								"namespaces"
+							],
+							"query": [
+								{
+									"key": "ignoreLinked",
+									"value": "true"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "game releases",
+			"item": [
+				{
+					"name": "Get Releases List",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/games/FD2536B2B360E54F/releases?userId={{user_id}}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"games",
+								"FD2536B2B360E54F",
+								"releases"
+							],
+							"query": [
+								{
+									"key": "userId",
+									"value": "{{user_id}}"
+								}
+							]
+						},
+						"description": "Retrieves the list of releases of this game"
+					},
+					"response": []
+				},
+				{
+					"name": "Get Published Games List",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/games/published?skip=0&limit=0",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"games",
+								"published"
+							],
+							"query": [
+								{
+									"key": "skip",
+									"value": "0",
+									"description": "How many items to skip (optional pagination)"
+								},
+								{
+									"key": "limit",
+									"value": "0",
+									"description": "How many items to load (optional pagination). 0 to load all"
+								}
+							]
+						},
+						"description": "Gets a list of published games. Only retrieves the header Game object.\n\nTo retrieve all the details, please use Get Published Game."
+					},
+					"response": []
+				},
+				{
+					"name": "Get Submission",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/submissions/FD2536B2B360E54F?userId={{user_id}}&status=-1",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"submissions",
+								"FD2536B2B360E54F"
+							],
+							"query": [
+								{
+									"key": "userId",
+									"value": "{{user_id}}"
+								},
+								{
+									"key": "status",
+									"value": "-1",
+									"description": "0 - pending; 1 - rejected; 2- approved, -1 all"
+								}
+							]
+						},
+						"description": "Retrieves the latest published game"
+					},
+					"response": []
+				},
+				{
+					"name": "Get Published Game",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/games/FD2536B2B360E54F/publish",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"games",
+								"FD2536B2B360E54F",
+								"publish"
+							]
+						},
+						"description": "Retrieves the latest published game"
+					},
+					"response": []
+				},
+				{
+					"name": "Create Game Release",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "ReleaseName",
+									"value": "faa",
+									"type": "text"
+								},
+								{
+									"key": "ReleaseNotes",
+									"value": "- Added 25 new skills\n- New companions\n- 30 new worlds",
+									"type": "text"
+								},
+								{
+									"key": "Version",
+									"value": "0.1.5",
+									"type": "text"
+								},
+								{
+									"key": "PackageStream",
+									"type": "file",
+									"src": "/Users/dnaniel213/Projects/Xarcade/Games/libot-adventure/aaa/Archive.zip"
+								},
+								{
+									"key": "WebPackageStream",
+									"description": "/blob/releases/{gameId}/{name}/index.html",
+									"type": "file",
+									"src": [],
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_url}}/games/FD2536B2B360E54F/releases?userId={{user_id}}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"games",
+								"FD2536B2B360E54F",
+								"releases"
+							],
+							"query": [
+								{
+									"key": "userId",
+									"value": "{{user_id}}"
+								}
+							]
+						},
+						"description": "Creates a game release"
+					},
+					"response": []
+				},
+				{
+					"name": "Publish Game",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/games/FD2536B2B360E54F/publish?userId={{user_id}}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"games",
+								"FD2536B2B360E54F",
+								"publish"
+							],
+							"query": [
+								{
+									"key": "userId",
+									"value": "{{user_id}}"
+								}
+							]
+						},
+						"description": "Publishes an approved game."
+					},
+					"response": []
+				},
+				{
+					"name": "Submit Game",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/games/FD2536B2B360E54F/submit?userId={{user_id}}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"games",
+								"FD2536B2B360E54F",
+								"submit"
+							],
+							"query": [
+								{
+									"key": "userId",
+									"value": "{{user_id}}"
+								}
+							]
+						},
+						"description": "Submits a game for admin review.\n\nOnly one can be pending at a time per game. Game has to be approved/rejected before developer is able to submit again."
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "token",
+			"item": [
+				{
+					"name": "Get Token",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "",
+									"value": "",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_url}}/tokens/3A85DC52D77C6665",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"tokens",
+								"3A85DC52D77C6665"
+							]
+						},
+						"description": "GET Token Info"
+					},
+					"response": []
+				},
+				{
+					"name": "Update Token Details",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "Description",
+									"value": "ddwwaa",
+									"type": "text"
+								},
+								{
+									"key": "LogoStream",
+									"description": "/blob/tokens/{tokenId}/{name}",
+									"type": "file",
+									"src": "/Users/dnaniel213/Downloads/st,small,507x507-pad,600x600,f8f8f8.jpeg"
+								},
+								{
+									"key": "Title",
+									"value": "TokenTitle",
+									"type": "text"
+								},
+								{
+									"key": "Symbol",
+									"value": "SYMB",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_url}}/tokens/3A85DC52D77C6665?userId={{user_id}}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"tokens",
+								"3A85DC52D77C6665"
+							],
+							"query": [
+								{
+									"key": "userId",
+									"value": "{{user_id}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Token",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "owner",
+									"value": "{{user_id}}",
+									"type": "text"
+								},
+								{
+									"key": "assetId",
+									"value": "5B1A8CBAB4A921CF",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Water Token",
+									"type": "text"
+								},
+								{
+									"key": "Title",
+									"value": "TokenTitle",
+									"type": "text"
+								},
+								{
+									"key": "Symbol",
+									"value": "SYMB",
+									"description": "Max 5 characters",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_url}}/tokens",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"tokens"
+							]
+						},
+						"description": "Create Token"
+					},
+					"response": []
+				},
+				{
+					"name": "Attach Tokens to Game",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/tokens/1D33C9392064D648/attach?userId={{user_id}}&gameId=8768732F0416F0D3",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"tokens",
+								"1D33C9392064D648",
+								"attach"
+							],
+							"query": [
+								{
+									"key": "userId",
+									"value": "{{user_id}}"
+								},
+								{
+									"key": "gameId",
+									"value": "8768732F0416F0D3"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Games Attached To Token with TokenId",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/tokens/1D33C9392064D648/attach",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"tokens",
+								"1D33C9392064D648",
+								"attach"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Admin",
+			"item": [
+				{
+					"name": "Review Game",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "Approve",
+									"value": "true",
+									"description": "True to approve, false to reject",
+									"type": "text"
+								},
+								{
+									"key": "PDFStream",
+									"description": "pdf document upload for guidelines",
+									"type": "file",
+									"src": [],
+									"disabled": true
+								},
+								{
+									"key": "Text",
+									"value": "hello",
+									"description": "Why did you approve/reject this game?",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_url}}/games/FD2536B2B360E54F/review?userId={{user_id}}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"games",
+								"FD2536B2B360E54F",
+								"review"
+							],
+							"query": [
+								{
+									"key": "userId",
+									"value": "{{user_id}}"
+								}
+							]
+						},
+						"description": "**\\[Admin Only\\]**\n\nApproves/Rejects pending submission"
+					},
+					"response": []
+				},
+				{
+					"name": "Get Submissions List",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/submissions?status=0&userId={{user_id}}&skip=0&limit=0",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"submissions"
+							],
+							"query": [
+								{
+									"key": "status",
+									"value": "0",
+									"description": "0 - pending; 1 - rejected; 2- approved,  3- published, -1 all"
+								},
+								{
+									"key": "userId",
+									"value": "{{user_id}}"
+								},
+								{
+									"key": "skip",
+									"value": "0",
+									"description": "How many items to skip (optional pagination)"
+								},
+								{
+									"key": "limit",
+									"value": "0",
+									"description": "How many items to load (optional pagination). 0 to load all"
+								}
+							]
+						},
+						"description": "**\\[ADMIN ONLY\\]**\n\nRetreieves the list of submissions of all users, with a status parameter"
+					},
+					"response": []
+				},
+				{
+					"name": "Upload Microservice",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "package",
+									"type": "file",
+									"src": "/Users/dnaniel213/Downloads/netcoreapp5.0.zip"
+								},
+								{
+									"key": "name",
+									"value": "microservice_0_1_0",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_url}}/microservice?userId={{user_id}}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"microservice"
+							],
+							"query": [
+								{
+									"key": "userId",
+									"value": "{{user_id}}"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "transactions",
+			"item": [
+				{
+					"name": "Get Transaction List",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/wallets/{{wallet_address}}/transactions",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"wallets",
+								"{{wallet_address}}",
+								"transactions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Receive Tokens",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/transactions/receive?userId={{user_id}}&token=Token title?&amount=100",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"transactions",
+								"receive"
+							],
+							"query": [
+								{
+									"key": "userId",
+									"value": "{{user_id}}"
+								},
+								{
+									"key": "token",
+									"value": "Token title?"
+								},
+								{
+									"key": "amount",
+									"value": "100"
+								}
+							]
+						},
+						"description": "Create Token"
+					},
+					"response": []
+				},
+				{
+					"name": "Exchange Tokens",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/transactions/exchange?token=put a better token here&userId={{user_id}}&payload=payload here",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"transactions",
+								"exchange"
+							],
+							"query": [
+								{
+									"key": "token",
+									"value": "put a better token here"
+								},
+								{
+									"key": "userId",
+									"value": "{{user_id}}"
+								},
+								{
+									"key": "payload",
+									"value": "payload here"
+								}
+							]
+						},
+						"description": "Create Token"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "notifications",
+			"item": [
+				{
+					"name": "Get Notifications",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/users/{{user_id}}/notifications?skip=0&limit=0",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"users",
+								"{{user_id}}",
+								"notifications"
+							],
+							"query": [
+								{
+									"key": "skip",
+									"value": "0",
+									"description": "How many notifications to skip"
+								},
+								{
+									"key": "limit",
+									"value": "0",
+									"description": "How many notifications (after skipped) will be loaded"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Read Notifications",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/users/{{user_id}}/notifications?notificationId=9e607a61-a35f-4665-9fd8-82bfeec74476&notificationId=c649746c-d5b2-47fb-af8e-6fa722e02227",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"users",
+								"{{user_id}}",
+								"notifications"
+							],
+							"query": [
+								{
+									"key": "notificationId",
+									"value": "9e607a61-a35f-4665-9fd8-82bfeec74476"
+								},
+								{
+									"key": "notificationId",
+									"value": "c649746c-d5b2-47fb-af8e-6fa722e02227"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Notification",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "Type",
+									"value": "SUCCESS",
+									"description": "INFO, SUCCESS, WARNING, DANGER",
+									"type": "text"
+								},
+								{
+									"key": "Title",
+									"value": "Yu-Gi-Oh! was published",
+									"type": "text"
+								},
+								{
+									"key": "Message",
+									"value": "can be ",
+									"type": "text"
+								},
+								{
+									"key": "Redirect",
+									"value": "null",
+									"description": "Call to action for the notification",
+									"type": "text"
+								},
+								{
+									"key": "Payload",
+									"value": "bruh12",
+									"description": "payload in case of transaction",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_url}}/users/{{user_id}}/notifications",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"users",
+								"{{user_id}}",
+								"notifications"
+							]
+						},
+						"description": "Creates a notification for a user"
+					},
+					"response": []
+				},
+				{
+					"name": "Send Email",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/users/{{user_id}}/email/send?subject=hello&message=is it me you're lookin for&buttonLink=hello.com",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"users",
+								"{{user_id}}",
+								"email",
+								"send"
+							],
+							"query": [
+								{
+									"key": "subject",
+									"value": "hello"
+								},
+								{
+									"key": "message",
+									"value": "is it me you're lookin for"
+								},
+								{
+									"key": "buttonLink",
+									"value": "hello.com"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "onboarding",
+			"item": [
+				{
+					"name": "Create Onboarding Checklist",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Onboarding Checklist",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "[\r\n        {\r\n            \"item\": \"Register developer account\",\r\n            \"step\": 1,\r\n            \"isDone\": true\r\n        },\r\n        {\r\n            \"item\": \"Verify email\",\r\n            \"step\": 1,\r\n            \"isDone\": true\r\n        },\r\n        {\r\n            \"item\": \"Edit public profile\",\r\n            \"step\": 1,\r\n            \"isDone\": false\r\n        },\r\n        {\r\n            \"item\": \"Complete personal info\",\r\n            \"step\": 1,\r\n            \"isDone\": false\r\n        },\r\n        {\r\n            \"item\": \"Setup sirius testnet wallet\",\r\n            \"step\": 2,\r\n            \"isDone\": false\r\n        },\r\n        {\r\n            \"item\": \"Create a game\",\r\n            \"step\": 2,\r\n            \"isDone\": false\r\n        },\r\n        {\r\n            \"item\": \"Create token in testnet\",\r\n            \"step\": 2,\r\n            \"isDone\": false\r\n        },\r\n        {\r\n            \"item\": \"Upload game version\",\r\n            \"step\": 2,\r\n            \"isDone\": false\r\n        },\r\n        {\r\n            \"item\": \"Release game in testnet\",\r\n            \"step\": 2,\r\n            \"isDone\": false\r\n        },\r\n        {\r\n            \"item\": \"Setup Sirius Mainnet Wallet\",\r\n            \"step\": 3,\r\n            \"isDone\": false\r\n        },\r\n        {\r\n            \"item\": \"Create token in Mainnet\",\r\n            \"step\": 3,\r\n            \"isDone\": false\r\n        },\r\n        {\r\n            \"item\": \"Upload game version\",\r\n            \"step\": 3,\r\n            \"isDone\": false\r\n        },\r\n        {\r\n            \"item\": \"Release game in Mainnet\",\r\n            \"step\": 3,\r\n            \"isDone\": false\r\n        }\r\n    ]",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/users/{{user_id}}/onboarding",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"users",
+								"{{user_id}}",
+								"onboarding"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Onboarding Checklist",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/users/{{user_id}}/onboarding",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"users",
+								"{{user_id}}",
+								"onboarding"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "account",
+			"item": [
+				{
+					"name": "Get Xarcade User",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/users/{{user_id}}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"users",
+								"{{user_id}}"
+							]
+						},
+						"description": "Gets the details of a xarcade user"
+					},
+					"response": []
+				},
+				{
+					"name": "Forgor Password",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Origin",
+								"value": "{{base_url}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/users/forgot-password?email=dnaniel213@gmail.com",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"users",
+								"forgot-password"
+							],
+							"query": [
+								{
+									"key": "email",
+									"value": "dnaniel213@gmail.com"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\" : \"{{username}}\",\r\n    \"password\" : \"{{password}}\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/users/login",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"users",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update User Details",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "UserId",
+									"value": "{{user_id}}",
+									"type": "text"
+								},
+								{
+									"key": "FirstName",
+									"value": "Xarcade",
+									"type": "text"
+								},
+								{
+									"key": "LastName",
+									"value": "Test",
+									"type": "text"
+								},
+								{
+									"key": "DisplayName",
+									"value": "The Xarcade Test Account",
+									"type": "text"
+								},
+								{
+									"key": "Introduction",
+									"value": "aaaaaa",
+									"type": "text"
+								},
+								{
+									"key": "WebsiteUrl",
+									"value": "xx",
+									"type": "text"
+								},
+								{
+									"key": "Company",
+									"value": "SmolAme",
+									"type": "text"
+								},
+								{
+									"key": "Phone",
+									"value": "+6363636363663",
+									"type": "text"
+								},
+								{
+									"key": "Gender",
+									"value": "Attack Helicopter",
+									"type": "text"
+								},
+								{
+									"key": "Country",
+									"value": "Ph",
+									"type": "text"
+								},
+								{
+									"key": "WalletAddress",
+									"value": "{{wallet_address}}",
+									"type": "text"
+								},
+								{
+									"key": "TestnetWalletAddress",
+									"value": "{{testnet_address}}",
+									"type": "text"
+								},
+								{
+									"key": "ProfileStream",
+									"description": "/blob/users/{username}/{picname}",
+									"type": "file",
+									"src": "/D:/Projects/Project Documentation/Project Documentations/Dandangames.fun/Dandan-Games-Dan-Profile.png"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_url}}/users/{{user_id}}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"users",
+								"{{user_id}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Verify",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Origin",
+								"value": "https://localhost:5001",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "{{base_url}}/users/verifyemail/DB1254EE56B202AE7EE04A71D71E23A91E571864AE17848152C6C5C7067F06858A70B9A1BE3FC61F",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"users",
+								"verifyemail",
+								"DB1254EE56B202AE7EE04A71D71E23A91E571864AE17848152C6C5C7067F06858A70B9A1BE3FC61F"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Reset Password",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "Token",
+									"value": "469751B4CC661D197BB0E6EADBA381DE716E470486505500B6DDFADDDB14D8FE46A58A3BEF2C20FD",
+									"type": "text"
+								},
+								{
+									"key": "Password",
+									"value": "password213",
+									"type": "text"
+								},
+								{
+									"key": "ConfirmPassword",
+									"value": "password213",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_url}}/users/{{user_id}}/reset-password",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"users",
+								"{{user_id}}",
+								"reset-password"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Password",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "{{base_url}}/users/{{user_id}}/change-password?oldPassword=Aassword215&newPassword=Password213",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"users",
+								"{{user_id}}",
+								"change-password"
+							],
+							"query": [
+								{
+									"key": "oldPassword",
+									"value": "Aassword215"
+								},
+								{
+									"key": "newPassword",
+									"value": "Password213"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Register",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Origin",
+								"value": "https://xarcade.proximaxtest.com/",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "Email",
+									"value": "gyjege@musiccode.med",
+									"type": "text"
+								},
+								{
+									"key": "Username",
+									"value": "xarcade.test.gyjeges",
+									"type": "text"
+								},
+								{
+									"key": "Password",
+									"value": "Xarcade.Test0",
+									"type": "text"
+								},
+								{
+									"key": "ConfirmPassword",
+									"value": "Xarcade.Test0",
+									"type": "text"
+								},
+								{
+									"key": "FirstName",
+									"value": "Daniel",
+									"type": "text"
+								},
+								{
+									"key": "LastName",
+									"value": "Fernandez",
+									"type": "text"
+								},
+								{
+									"key": "Company",
+									"value": "SmolAme Studio",
+									"type": "text"
+								},
+								{
+									"key": "Gender",
+									"value": "GIGACHAD",
+									"type": "text"
+								},
+								{
+									"key": "Phone",
+									"value": "+639991579835",
+									"type": "text"
+								},
+								{
+									"key": "AcceptTerms",
+									"value": "true",
+									"type": "text"
+								},
+								{
+									"key": "Website",
+									"value": "https://www.dandangames.fun",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_url}}/users/register",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"users",
+								"register"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Invite",
+			"item": [
+				{
+					"name": "Invite Gamers",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/games/B93375BC002534A2/invites?userId={{user_id}}&email=dnaniel213@gmail.com&email=jchew@proximax.io&email=testadmin@testmail.com",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"games",
+								"B93375BC002534A2",
+								"invites"
+							],
+							"query": [
+								{
+									"key": "userId",
+									"value": "{{user_id}}",
+									"description": "checks if you are the game owner"
+								},
+								{
+									"key": "email",
+									"value": "dnaniel213@gmail.com",
+									"description": "This API accepts a list of emails, just repeat the email parameter"
+								},
+								{
+									"key": "email",
+									"value": "jchew@proximax.io"
+								},
+								{
+									"key": "email",
+									"value": "testadmin@testmail.com"
+								}
+							]
+						},
+						"description": "Invites new gamers. Already invited gamers will not be added to the list."
+					},
+					"response": []
+				},
+				{
+					"name": "Check if gamer is invited",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/games/D59DF7E0BA28BB6F/invites/dnaniel21344@gmail.comws?userId={{user_id}}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"games",
+								"D59DF7E0BA28BB6F",
+								"invites",
+								"dnaniel21344@gmail.comws"
+							],
+							"query": [
+								{
+									"key": "userId",
+									"value": "{{user_id}}",
+									"description": "checks if you are the game owner"
+								}
+							]
+						},
+						"description": "Checks if a certain user is invited to a game."
+					},
+					"response": []
+				},
+				{
+					"name": "Get Invited Gamers",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/games/B93375BC002534A2/invites?userId={{user_id}}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"games",
+								"B93375BC002534A2",
+								"invites"
+							],
+							"query": [
+								{
+									"key": "userId",
+									"value": "{{user_id}}",
+									"description": "checks if you are the game owner"
+								}
+							]
+						},
+						"description": "Gets a list of all the gamers invited."
+					},
+					"response": []
+				},
+				{
+					"name": "Get Playable Games",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/users/{{user_id}}/invites",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"users",
+								"{{user_id}}",
+								"invites"
+							]
+						},
+						"description": "Retrieves a list of games a user is invited to."
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Feedback",
+			"item": [
+				{
+					"name": "Get Feedback List",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/games/B93375BC002534A2/feedbacks?userId={{user_id}}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"games",
+								"B93375BC002534A2",
+								"feedbacks"
+							],
+							"query": [
+								{
+									"key": "userId",
+									"value": "{{user_id}}",
+									"description": "checks if you are the game owner"
+								}
+							]
+						},
+						"description": "Gets a list of all the gamers invited."
+					},
+					"response": []
+				},
+				{
+					"name": "Create Feedback",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "message",
+									"value": "very noice",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_url}}/games/B93375BC002534A2/feedbacks?userId={{user_id}}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"games",
+								"B93375BC002534A2",
+								"feedbacks"
+							],
+							"query": [
+								{
+									"key": "userId",
+									"value": "{{user_id}}"
+								},
+								{
+									"key": "message",
+									"value": "Kind of decent game, not really good. 100/10",
+									"disabled": true
+								}
+							]
+						},
+						"description": "Invites new gamers. Already invited gamers will not be added to the list."
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Api Keys",
+			"item": [
+				{
+					"name": "Get Identity From Api Key",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Existing API Key\",()=>\r",
+									"{\r",
+									"    pm.response.to.have.status(200);\r",
+									"})\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "{{base_url}}/apikeys/AB8ED15EC8BBD6F45ADC85AB376AA0B41505CE49E697A64824CDE4889C06B896BE740FD5D01CCB30",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"apikeys",
+								"AB8ED15EC8BBD6F45ADC85AB376AA0B41505CE49E697A64824CDE4889C06B896BE740FD5D01CCB30"
+							]
+						},
+						"description": "Retrieves an API key used to identify API calls to a game"
+					},
+					"response": []
+				},
+				{
+					"name": "Generate API Key",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Existing Game\",()=>\r",
+									"{\r",
+									"    pm.response.to.have.status(200);\r",
+									"})\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "pointerId",
+									"value": "dane-libot",
+									"type": "text"
+								},
+								{
+									"key": "hoursToExpire",
+									"value": "200",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_url}}/apikeys?userId={{user_id}}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"apikeys"
+							],
+							"query": [
+								{
+									"key": "userId",
+									"value": "{{user_id}}"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"description": "What this does:\n\n1\\. Whenever a user opens a game, a temporary key is generated that references the gameId and the userId\n\n2\\. Game developers can use that key to securely identify a user when retreiving tokens, trading, and airdropping.\n\n3.  This key is created per game. This means if the user enters another game, a different key will be used. Key from other game can still be used until expired.\n\n4\\. If a user exits a game and re-enters, the old key will be disposed and replaced.\n\n5\\. User cannot be identified with an expired key."
+		},
+		{
+			"name": "v1",
+			"item": []
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyOTE4MGVlYi1lNzViLTRjZDktYTgyYi02NzMyMTMzYzU3ODkiLCJuYmYiOjE2NTM2MTg3MDIsImV4cCI6MTY1MzcwNTEwMiwiaWF0IjoxNjUzNjE4NzAyfQ.nk8ybu-VR6pzBvnr95bhgASqB50w_8DrGvT1pZolIm0",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}

@@ -2,8 +2,11 @@
 using System;
 using System.IO;
 using System.Net.Http;
+using System.Collections;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using UnityEngine;
+using UnityEngine.Networking;
 using SimpleJSON;
 using TMPro;
 
@@ -15,14 +18,14 @@ public class Backend : MonoBehaviour
     public string token_id;
     public int tokenAmount = 0;
     public float originalFontSize = 0;
-    public TMP_Text tokentext;
+    // public TMP_Text tokentext;
     public HttpClient client = new HttpClient();
 
     public void Start()
     {
         DontDestroyOnLoad(this.gameObject);
         client = new HttpClient();
-        originalFontSize = tokentext.fontSize;
+        // originalFontSize = tokentext.fontSize;
         Debug.Log("baseurl: " + baseUrl);
         Debug.Log("api_key: " + api_key);
         Debug.Log("user: " + userId);
@@ -56,8 +59,8 @@ public class Backend : MonoBehaviour
                     tokenAmount = token["amount"];
                 }
             }
-            tokentext.text = tokenAmount +"";
-            tokentext.fontSize = originalFontSize + tokenAmount ;
+            // tokentext.text = tokenAmount +"";
+            // tokentext.fontSize = originalFontSize + tokenAmount ;
             Debug.Log(tokenAmount);
         }
         catch(HttpRequestException e)
@@ -69,7 +72,28 @@ public class Backend : MonoBehaviour
         return "";
     }
 
-    public async Task<bool> AirdropTokens(int amount)
+    public IEnumerator AirdropTokens(int amount)
+    {
+        UnityWebRequest request = new UnityWebRequest(baseUrl + "/v1/transactions/airdrop?DeveloperToken=" + token_id + "&DeveloperTokenAmount=" + amount + "&GamerId=" + userId, "POST");
+        // request.uploadHandler = (UploadHandler)new UploadHandlerRaw(jsonToSend);
+        request.SetRequestHeader("X-API-KEY", api_key);
+        request.downloadHandler = (DownloadHandler)new DownloadHandlerBuffer();
+
+        yield return request.SendWebRequest();
+        if (request.result == UnityWebRequest.Result.ConnectionError || request.result == UnityWebRequest.Result.ProtocolError)
+        {
+            Debug.Log("Error :(");
+            // onErrorCallback(request.result);
+            Debug.LogError(request.error, this);
+        }
+        else
+        {
+            Debug.Log(request.downloadHandler.text);
+            // callback(request.downloadHandler.text);
+        }
+    }
+
+    public async Task<bool> AirdrospTokens(int amount)
     {
         Debug.Log("Sending tokens");
         // Call asynchronous network methods in a try/catch block to handle exceptions.
@@ -78,7 +102,7 @@ public class Backend : MonoBehaviour
             HttpRequestMessage request = new HttpRequestMessage();
             request.RequestUri = new Uri(baseUrl + "/v1/transactions/airdrop?DeveloperToken=" + token_id + "&DeveloperTokenAmount=" + amount + "&GamerId=" + userId);
             request.Method = HttpMethod.Post;
-            request.Headers.Add("api_key", api_key);
+            request.Headers.Add("X-API-KEY", api_key);
             HttpResponseMessage response = await client.SendAsync(request);
             response.EnsureSuccessStatusCode();
             string responseBody = await response.Content.ReadAsStringAsync();

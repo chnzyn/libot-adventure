@@ -23,7 +23,7 @@ public class TokenObj : MonoBehaviour
 
     public IEnumerator airdrop(int value)
     {
-        yield return backend.AirdropTokens(value);
+        yield return StartCoroutine(backend.AirdropTokens(value));
         Debug.Log("Airdrop finished!");
         Destroy(this.gameObject);
     }

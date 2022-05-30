@@ -573,13 +573,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75e636c0d3f24ed4eb5ac911c5eaaad9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  userId: B6506086120E9AB1F55412B87930F08F2B1BC3CFD6F6FB3DD52737C417D4AF803494307D266CD277
-  baseUrl: http://192.168.0.102:8081
-  api_key: C9EBE4833236FB555AAD19DABBB22A531DF69033F75A2227660D296D97A074ADFEA9E7EF6A113C6A
+  userId: 1918BC6F50620F1774100C9005895CCBD04BFF36C9F2076D392FAF9B6FECA4E0141FDBC2860DAF8C
+  baseUrl: https://xar-autosigner.proximaxtest.com
+  api_key: ABCDE
   token_id: adventurecoin
   tokenAmount: 0
   originalFontSize: 0
-  tokentext: {fileID: 0}
 --- !u!4 &355787990
 Transform:
   m_ObjectHideFlags: 0
