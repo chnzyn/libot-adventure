@@ -252,6 +252,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (95)
@@ -313,6 +318,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (43)
@@ -362,6 +372,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (3)
@@ -417,6 +432,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (13)
@@ -665,6 +685,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (105)
@@ -919,6 +944,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (89)
@@ -968,6 +998,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (22)
@@ -1218,6 +1253,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (12)
@@ -1421,6 +1461,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (22)
@@ -1641,6 +1686,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (58)
@@ -1825,6 +1875,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (36)
@@ -1948,6 +2003,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (26)
@@ -2027,6 +2087,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (159)
@@ -2277,6 +2342,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (93)
@@ -2758,6 +2828,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (68)
@@ -2819,6 +2894,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (74)
@@ -3093,6 +3173,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (82)
@@ -3160,6 +3245,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (163)
@@ -3227,6 +3317,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (70)
@@ -3294,6 +3389,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (48)
@@ -3343,6 +3443,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (38)
@@ -4008,6 +4113,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (52)
@@ -4106,6 +4216,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (73)
@@ -4370,6 +4485,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (15)
@@ -4837,6 +4957,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (7)
@@ -5062,6 +5187,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (92)
@@ -5190,6 +5320,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (28)
@@ -5364,6 +5499,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (40)
@@ -5474,6 +5614,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (16)
@@ -5702,6 +5847,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (65)
@@ -5763,6 +5913,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (9)
@@ -5960,6 +6115,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (90)
@@ -6100,6 +6260,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (41)
@@ -6149,6 +6314,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (59)
@@ -6198,6 +6368,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (171)
@@ -6265,6 +6440,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (53)
@@ -6572,6 +6752,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (107)
@@ -6621,6 +6806,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (10)
@@ -6670,6 +6860,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4803254545479948, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -7104,6 +7299,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (172)
@@ -7171,6 +7371,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (71)
@@ -7232,6 +7437,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (31)
@@ -7281,6 +7491,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (88)
@@ -7348,6 +7563,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (30)
@@ -7608,6 +7828,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (45)
@@ -7675,6 +7900,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (66)
@@ -7724,6 +7954,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (91)
@@ -7909,6 +8144,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (73)
@@ -7964,6 +8204,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (29)
@@ -8025,6 +8270,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (7)
@@ -8104,6 +8354,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (20)
@@ -8214,6 +8469,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (90)
@@ -8263,6 +8523,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (76)
@@ -8330,6 +8595,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (10)
@@ -8662,7 +8932,6 @@ Transform:
   - {fileID: 1807526212}
   - {fileID: 1848952991}
   - {fileID: 1083063356}
-  - {fileID: 724019937}
   - {fileID: 1312028814}
   - {fileID: 814133627}
   - {fileID: 986876125}
@@ -8673,7 +8942,6 @@ Transform:
   - {fileID: 1473047711}
   - {fileID: 1992661519}
   - {fileID: 687934041}
-  - {fileID: 882684759}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8684,6 +8952,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (42)
@@ -8733,6 +9006,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4803254545479948, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -8981,6 +9259,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (160)
@@ -9048,6 +9331,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (59)
@@ -9158,6 +9446,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (56)
@@ -9256,6 +9549,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (34)
@@ -9545,6 +9843,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (46)
@@ -9612,6 +9915,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (51)
@@ -9679,6 +9987,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (84)
@@ -9885,6 +10198,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (44)
@@ -9964,6 +10282,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (61)
@@ -10025,6 +10348,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (105)
@@ -10086,6 +10414,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (25)
@@ -10319,6 +10652,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (29)
@@ -10439,6 +10777,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (80)
@@ -10661,6 +11004,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (61)
@@ -10710,6 +11058,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (95)
@@ -10771,6 +11124,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (47)
@@ -11177,113 +11535,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2058339759}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &724019936
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 547750595}
-    m_Modifications:
-    - target: {fileID: 4010742582468332, guid: 35ba2fb4591c14d548e603ebadc74018, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -5.39
-      objectReference: {fileID: 0}
-    - target: {fileID: 4011768398473498, guid: 35ba2fb4591c14d548e603ebadc74018, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -5.39
-      objectReference: {fileID: 0}
-    - target: {fileID: 4112396018694604, guid: 35ba2fb4591c14d548e603ebadc74018, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -5.39
-      objectReference: {fileID: 0}
-    - target: {fileID: 4330290207373160, guid: 35ba2fb4591c14d548e603ebadc74018, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -5.39
-      objectReference: {fileID: 0}
-    - target: {fileID: 4391051362006604, guid: 35ba2fb4591c14d548e603ebadc74018, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -5.44
-      objectReference: {fileID: 0}
-    - target: {fileID: 4521025588750184, guid: 35ba2fb4591c14d548e603ebadc74018, type: 3}
-      propertyPath: m_RootOrder
-      value: 226
-      objectReference: {fileID: 0}
-    - target: {fileID: 4521025588750184, guid: 35ba2fb4591c14d548e603ebadc74018, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 5.3836155
-      objectReference: {fileID: 0}
-    - target: {fileID: 4521025588750184, guid: 35ba2fb4591c14d548e603ebadc74018, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 4521025588750184, guid: 35ba2fb4591c14d548e603ebadc74018, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 16.553667
-      objectReference: {fileID: 0}
-    - target: {fileID: 4521025588750184, guid: 35ba2fb4591c14d548e603ebadc74018, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.99604404
-      objectReference: {fileID: 0}
-    - target: {fileID: 4521025588750184, guid: 35ba2fb4591c14d548e603ebadc74018, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4521025588750184, guid: 35ba2fb4591c14d548e603ebadc74018, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.088860914
-      objectReference: {fileID: 0}
-    - target: {fileID: 4521025588750184, guid: 35ba2fb4591c14d548e603ebadc74018, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4521025588750184, guid: 35ba2fb4591c14d548e603ebadc74018, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -10.196
-      objectReference: {fileID: 0}
-    - target: {fileID: 4521235877629014, guid: 35ba2fb4591c14d548e603ebadc74018, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -5.44
-      objectReference: {fileID: 0}
-    - target: {fileID: 4597175659513166, guid: 35ba2fb4591c14d548e603ebadc74018, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -5.11
-      objectReference: {fileID: 0}
-    - target: {fileID: 4663606689474534, guid: 35ba2fb4591c14d548e603ebadc74018, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -5.03
-      objectReference: {fileID: 0}
-    - target: {fileID: 4666551898069506, guid: 35ba2fb4591c14d548e603ebadc74018, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -4.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 4713444954500482, guid: 35ba2fb4591c14d548e603ebadc74018, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -5.39
-      objectReference: {fileID: 0}
-    - target: {fileID: 4787483866442578, guid: 35ba2fb4591c14d548e603ebadc74018, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -5.44
-      objectReference: {fileID: 0}
-    - target: {fileID: 4867267980004796, guid: 35ba2fb4591c14d548e603ebadc74018, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -5.13
-      objectReference: {fileID: 0}
-    - target: {fileID: 4940822594348364, guid: 35ba2fb4591c14d548e603ebadc74018, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -5.44
-      objectReference: {fileID: 0}
-    - target: {fileID: 4954092858933416, guid: 35ba2fb4591c14d548e603ebadc74018, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -5.44
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 35ba2fb4591c14d548e603ebadc74018, type: 3}
---- !u!4 &724019937 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4521025588750184, guid: 35ba2fb4591c14d548e603ebadc74018,
-    type: 3}
-  m_PrefabInstance: {fileID: 724019936}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &725925806
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11370,6 +11621,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (103)
@@ -11419,6 +11675,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (158)
@@ -11700,6 +11961,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (94)
@@ -11859,6 +12125,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (70)
@@ -11926,6 +12197,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (63)
@@ -11987,6 +12263,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (45)
@@ -12036,6 +12317,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (69)
@@ -12097,6 +12383,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (85)
@@ -12164,6 +12455,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (33)
@@ -12262,6 +12558,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (17)
@@ -12329,6 +12630,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (60)
@@ -12439,6 +12745,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (14)
@@ -12500,6 +12811,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (169)
@@ -12597,6 +12913,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (36)
@@ -12652,6 +12973,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (66)
@@ -12827,6 +13153,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (16)
@@ -12888,6 +13219,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (53)
@@ -13070,6 +13406,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (97)
@@ -13119,6 +13460,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (2)
@@ -13168,6 +13514,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (40)
@@ -13266,6 +13617,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (35)
@@ -13396,6 +13752,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (100)
@@ -13861,57 +14222,6 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 824d3adafd1c2d64b8c82f09ed60bfe7, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7821bc923171f24094e69062402d005, type: 3}
---- !u!1001 &882684758
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 547750595}
-    m_Modifications:
-    - target: {fileID: 4158779583855278, guid: 6d65197119a984116b62096f95f76c97, type: 3}
-      propertyPath: m_RootOrder
-      value: 237
-      objectReference: {fileID: 0}
-    - target: {fileID: 4158779583855278, guid: 6d65197119a984116b62096f95f76c97, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 5.3836155
-      objectReference: {fileID: 0}
-    - target: {fileID: 4158779583855278, guid: 6d65197119a984116b62096f95f76c97, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 3.4350972
-      objectReference: {fileID: 0}
-    - target: {fileID: 4158779583855278, guid: 6d65197119a984116b62096f95f76c97, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 16.553667
-      objectReference: {fileID: 0}
-    - target: {fileID: 4158779583855278, guid: 6d65197119a984116b62096f95f76c97, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.99604404
-      objectReference: {fileID: 0}
-    - target: {fileID: 4158779583855278, guid: 6d65197119a984116b62096f95f76c97, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4158779583855278, guid: 6d65197119a984116b62096f95f76c97, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.088860914
-      objectReference: {fileID: 0}
-    - target: {fileID: 4158779583855278, guid: 6d65197119a984116b62096f95f76c97, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4158779583855278, guid: 6d65197119a984116b62096f95f76c97, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -10.196
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 6d65197119a984116b62096f95f76c97, type: 3}
---- !u!4 &882684759 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4158779583855278, guid: 6d65197119a984116b62096f95f76c97,
-    type: 3}
-  m_PrefabInstance: {fileID: 882684758}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &883925663
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13998,6 +14308,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (4)
@@ -14276,6 +14591,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (99)
@@ -14435,6 +14755,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (49)
@@ -14563,6 +14888,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (47)
@@ -14711,6 +15041,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (50)
@@ -14778,6 +15113,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (27)
@@ -14878,6 +15218,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (78)
@@ -14976,6 +15321,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (46)
@@ -15025,6 +15375,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (15)
@@ -15536,6 +15891,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (24)
@@ -15634,6 +15994,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (164)
@@ -15701,6 +16066,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (32)
@@ -15846,6 +16216,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (170)
@@ -16119,6 +16494,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (17)
@@ -16603,6 +16983,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (23)
@@ -16934,6 +17319,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (110)
@@ -17072,6 +17462,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (63)
@@ -17133,6 +17528,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (81)
@@ -17182,6 +17582,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (79)
@@ -17304,6 +17709,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (167)
@@ -17519,6 +17929,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (1)
@@ -17580,6 +17995,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (96)
@@ -17725,6 +18145,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (83)
@@ -18092,6 +18517,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (106)
@@ -18159,6 +18589,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (79)
@@ -18259,6 +18694,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (162)
@@ -18326,6 +18766,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (57)
@@ -18387,6 +18832,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (33)
@@ -18577,6 +19027,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (116)
@@ -18845,6 +19300,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (11)
@@ -18912,6 +19372,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (20)
@@ -18979,6 +19444,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (48)
@@ -19052,6 +19522,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (60)
@@ -19107,6 +19582,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (19)
@@ -19219,6 +19699,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (62)
@@ -19268,6 +19753,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (68)
@@ -19445,6 +19935,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (12)
@@ -19506,6 +20001,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (8)
@@ -20054,6 +20554,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (6)
@@ -20121,6 +20626,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (108)
@@ -20300,6 +20810,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (75)
@@ -20518,6 +21033,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (19)
@@ -20567,6 +21087,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (49)
@@ -20616,6 +21141,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (89)
@@ -20710,6 +21240,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (23)
@@ -20765,6 +21300,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (28)
@@ -20838,6 +21378,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (32)
@@ -20887,6 +21432,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (161)
@@ -20966,6 +21516,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (30)
@@ -21076,6 +21631,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (54)
@@ -21258,6 +21818,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (101)
@@ -21440,6 +22005,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (168)
@@ -21507,6 +22077,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (58)
@@ -21623,6 +22198,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (62)
@@ -21684,6 +22264,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (104)
@@ -21745,6 +22330,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (98)
@@ -21891,6 +22481,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (41)
@@ -22007,6 +22602,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (5)
@@ -22190,6 +22790,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (64)
@@ -22438,6 +23043,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (71)
@@ -22522,6 +23132,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (87)
@@ -22626,6 +23241,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (93)
@@ -22818,6 +23438,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (84)
@@ -22891,6 +23516,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (82)
@@ -23044,6 +23674,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (86)
@@ -23171,6 +23806,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (57)
@@ -23220,6 +23860,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (74)
@@ -23269,6 +23914,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (64)
@@ -23466,6 +24116,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (92)
@@ -23628,6 +24283,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (9)
@@ -23744,6 +24404,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (77)
@@ -23793,6 +24458,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (6)
@@ -23842,6 +24512,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (44)
@@ -23909,6 +24584,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (88)
@@ -23958,6 +24638,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (98)
@@ -24019,6 +24704,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (37)
@@ -24080,6 +24770,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (54)
@@ -24404,6 +25099,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (21)
@@ -24540,6 +25240,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (78)
@@ -24601,6 +25306,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (72)
@@ -24662,6 +25372,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (5)
@@ -24711,6 +25426,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (18)
@@ -24980,6 +25700,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (55)
@@ -25211,6 +25936,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (173)
@@ -25793,6 +26523,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (31)
@@ -25935,6 +26670,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (100)
@@ -26002,6 +26742,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (55)
@@ -26051,6 +26796,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (101)
@@ -26362,6 +27112,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (72)
@@ -26605,6 +27360,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (13)
@@ -26813,6 +27573,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (106)
@@ -26963,6 +27728,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (86)
@@ -27483,6 +28253,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (4)
@@ -27943,6 +28718,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (11)
@@ -28016,6 +28796,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (107)
@@ -28668,6 +29453,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (8)
@@ -28735,6 +29525,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (80)
@@ -28784,6 +29579,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (43)
@@ -28898,6 +29698,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (52)
@@ -29020,6 +29825,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (165)
@@ -29179,6 +29989,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (18)
@@ -29228,6 +30043,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (27)
@@ -29295,6 +30115,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (76)
@@ -29430,6 +30255,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (91)
@@ -29571,6 +30401,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (102)
@@ -29777,6 +30612,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (166)
@@ -30014,6 +30854,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (97)
@@ -30075,6 +30920,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (94)
@@ -30216,6 +31066,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (1)
@@ -30277,6 +31132,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (26)
@@ -30399,6 +31259,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (50)
@@ -30454,6 +31319,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (2)
@@ -30515,6 +31385,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (102)
@@ -30570,6 +31445,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (51)
@@ -30676,6 +31556,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (24)
@@ -30737,6 +31622,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (21)
@@ -30798,6 +31688,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (37)
@@ -30859,6 +31754,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (109)
@@ -30969,6 +31869,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (83)
@@ -31237,6 +32142,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (14)
@@ -31353,6 +32263,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (69)
@@ -31467,6 +32382,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (67)
@@ -31534,6 +32454,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (81)
@@ -31595,6 +32520,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (96)
@@ -31717,6 +32647,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (35)
@@ -32027,6 +32962,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (85)
@@ -32076,6 +33016,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (87)
@@ -32228,6 +33173,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (65)
@@ -32289,6 +33239,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (56)
@@ -32356,6 +33311,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (42)
@@ -32675,6 +33635,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (77)
@@ -32754,6 +33719,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (104)
@@ -32939,6 +33909,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (39)
@@ -32994,6 +33969,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (25)
@@ -33055,6 +34035,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (103)
@@ -33122,6 +34107,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (99)
@@ -33177,6 +34167,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (39)
@@ -33425,6 +34420,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (3)
@@ -33559,6 +34559,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (67)
@@ -33734,6 +34739,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (75)
@@ -33895,6 +34905,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (38)
@@ -34068,6 +35083,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 547750595}
     m_Modifications:
+    - target: {fileID: -8472052940523689653, guid: 87dff218b8b0d479db9da8a87088438b,
+        type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1711429167227892, guid: 87dff218b8b0d479db9da8a87088438b, type: 3}
       propertyPath: m_Name
       value: Coin (34)
